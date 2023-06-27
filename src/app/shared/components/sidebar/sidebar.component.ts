@@ -10,7 +10,6 @@ export class SidebarComponent {
 
   constructor(private gifsService: GifsService) { }
 
-
   get tags():string[]{
     return this.gifsService.tagsHistory;
   }
